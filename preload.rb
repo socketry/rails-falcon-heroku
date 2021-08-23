@@ -1,6 +1,4 @@
 
-require_relative "config/environment"
-
 module PrintRequestHeaders
 	def read_headers
 		headers = super
