@@ -135,6 +135,8 @@ GEM
     protocol-http2 (0.14.2)
       protocol-hpack (~> 1.4)
       protocol-http (~> 0.18)
+    puma (5.4.0)
+      nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.3)
     rack-test (1.1.0)
@@ -207,6 +209,7 @@ DEPENDENCIES
   byebug
   falcon
   listen (~> 3.3)
+  puma
   rails (~> 6.1.4, >= 6.1.4.1)
   sass-rails (>= 6)
   tzinfo-data
