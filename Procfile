@@ -1,1 +1,1 @@
-web: bundle exec ./falcon.rb
+web: bundle exec puma
